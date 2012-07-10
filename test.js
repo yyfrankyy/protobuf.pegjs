@@ -22,7 +22,6 @@ function run(file, item) {
   try {
     var protoTree = protoc(protoSource);
     console.log('%s is passed.'.green, item);
-    //console.log(protoTree);
   } catch (e) {
     console.log('%s is not passed. err: %s'.red, item, e.message.red);
   }
