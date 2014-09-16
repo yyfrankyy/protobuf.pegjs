@@ -41,7 +41,7 @@ Enum 'enum'
     }
 
 EnumField 'enum field'
-  = __ enumKey:Identifier __ '=' __ enumOrder:Order __ fieldOption:FieldOptions? EOS __ {
+  = __ enumKey:Identifier __ '=' __ enumOrder:NumericLiteral __ fieldOption:FieldOptions? EOS __ {
       return {
         type: 'EnumField'
       , fieldName: enumKey
