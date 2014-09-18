@@ -275,7 +275,12 @@ Literal
         value: value
       }
     }
-  / Identifier
+  / value:Identifier {
+      return {
+        type:  "EnumLiteral",
+        value: value
+      }
+    }
 
 SingleLineComment
   = '//' (!LineTerminator SourceCharacter)*
