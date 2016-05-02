@@ -1,0 +1,19 @@
+{
+  "name": "protobuf.pegjs",
+  "version": "0.0.2",
+  "description": "protobuf parser writen in PEG.js",
+  "main": "protobuf.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yyfrankyy/protobuf.pegjs.git"
+  },
+  "author": "Frank Xu <yyfrankyy@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/yyfrankyy/protobuf.pegjs/issues"
+  },
+  "homepage": "https://github.com/yyfrankyy/protobuf.pegjs"
+}
